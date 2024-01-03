@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: italic;
+}
+* {
+    box-sizing: content-box;
+}
+/* .boxed {
+    width: 10rem;
+    height: 10rem;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1rem solid red;
+} */
+ a {
+    color: red;
+    width: 10rem;
+    text-decoration: none;
+    height: 10rem;
+    padding: 1rem;
+    background-color: blue;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.font {
+    line-height: 1.5;
+    /* text-align: justify; */
+    letter-spacing: 2px;
+    word-spacing: 0.3px;
+    /* hien thi dau 3 cham tren 1 hang */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    /* max-width: 400px; */
+    /* toi hang thu 3 moi hien dau 3 cham */
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    text-align: left;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.image {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.pseudo {
+    font-size: 30px;
+    color: black;
+}
+/* .pseudo:hover {
+    color: orange;
+} */
+/* .pseudo:active {
+    color: orange;
+} */
+.pseudo:visited {
+    color: orange;
+}
+
